@@ -1,0 +1,53 @@
+.body{
+    font-size: 16px;
+}
+.page__header{
+display: flex;
+flex-direction: column;
+background: #A8A8FF;
+padding: 1rem;
+margin: 2rem 3rem;
+}
+.Filter__Row{
+display: flex;
+flex-direction: row;
+padding: 0.5rem;
+border: 1px solid black;
+margin: 2rem 3rem;
+}
+.Filter__item_group{
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+}
+.Filter__item_group_item1{
+width: 16rem;
+margin-right: 0.5rem;
+background: #8055FF;
+}
+.Filter__item_group_item2{
+    width: 2rem;
+    background: #8055FF;
+}
+.Filter__item{
+    padding: 1rem;
+    background: #8055FF;
+}
+.Table__Wrappen{
+display: flex;
+flex-direction: column;
+margin: 2rem 3rem 0 3rem;
+border: 1px solid black;
+}
+.Table__Header{
+    background: #8055FF;
+    padding: 1.5rem;
+}
+.Table__Body{
+    background: #A8A8FF;
+    height: 32rem;
+}
+.Table__Footer{
+background: #8055FF;
+padding: 1.5rem;
+}

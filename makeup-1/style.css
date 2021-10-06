@@ -1,70 +1,72 @@
-body{
+body {
     font-size: 16px;
 }
-.page{
-display: flex;
-flex-direction: column;
-background: #A8A8FF;
-height: 2rem;
-margin: 2rem 3rem;
+
+.page {
+    display: flex;
+    flex-direction: column;
+    background: #A8A8FF;
+    height: 2rem;
+    margin: 2rem 3rem;
 }
-.page__text{
+
+.page__text {
     color: #8055FF;
-font-family: Ubuntu;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 2rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 2rem;
 }
-.Filter{
-display: flex;
-border: 2px solid #A8A8FF;
-padding: 0.5rem;
-margin: 2rem 3rem;
+
+.filter {
+    display: flex;
+    border: 2px solid #A8A8FF;
+    padding: 0.5rem;
+    margin: 2rem 0;
 }
-.Filter__group{
+
+.filter__search {
     display: flex;
     margin-right: auto;
 }
-.Filter__item1{
-width: 16rem;
-margin-right: 0.5rem;
-background: #8055FF;
+
+.filter__search-field {
+    width: 16rem;
+    margin-right: 0.5rem;
+    background: #8055FF;
 }
-.Filter__item2{
+
+.filter__search-options {
     width: 2rem;
     background: #8055FF;
 }
-.Filter__item{
+
+.filter__button {
     padding: 1rem;
     background: #8055FF;
 }
-.Table{
-display: flex;
-flex-direction: column;
-margin: 2rem 3rem 0 3rem;
+
+.table {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
 }
-.Table__Header{
+
+.table__header {
     background: #8055FF;
-    padding: 1.5rem;
+    height: 3rem;
 }
-.Table__Body{
+
+.table__body {
     background: #A8A8FF;
-align-items: stretch;
-min-height: 32rem;
+    align-items: stretch;
+    min-height: 32rem;
 }
-.Table__Footer{
+
+.table__footer {
     position: sticky;
-    bottom:0;
-background: #8055FF;
-}
-.Table__item1 {
-    margin-left: auto;
-    padding: 1.5rem 16rem;
-
-}
-.Table__item{
-    margin-right: auto;
-    padding: 1.5rem 16rem;
-
+    bottom: 0;
+    background: #8055FF;
+    height: 3rem;
 }
